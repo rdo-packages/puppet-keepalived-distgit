@@ -1,5 +1,5 @@
 # UUID                                  	Group Name
 #
 16b9709430fbba3f34dcb5f9bd0560c5e02930a5	puppet/puppet-keepalived-distgit-ptl
-58baad4387afeca8d008823c949ed463288179f4	puppet-module-keepalived-distgit-core
+58baad4387afeca8d008823c949ed463288179f4	puppet/puppet-keepalived-distgit-core
 global:Registered-Users                 	Registered Users
