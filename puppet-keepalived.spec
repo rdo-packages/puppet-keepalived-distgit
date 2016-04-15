@@ -1,4 +1,4 @@
-Name:           puppet-module-keepalived
+Name:           puppet-keepalived
 Version:        XXX
 Release:        XXX
 Summary:        Keepalived Puppet Module

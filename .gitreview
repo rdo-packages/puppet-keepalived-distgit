@@ -1,5 +1,5 @@
 [gerrit]
-host=rpmfactory.beta.rdoproject.org
+host=review.rdoproject.org
 port=29418
-project=puppet-module-keepalived-distgit
+project=puppet/puppet-keepalived-distgit
 defaultbranch=master
