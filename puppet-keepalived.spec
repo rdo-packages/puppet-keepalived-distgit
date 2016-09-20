@@ -7,8 +7,8 @@
 
 
 Name:           puppet-keepalived
-Version:        XXX
-Release:        XXX
+Version:        
+Release:        1%{?alphatag}%{?dist}
 Summary:        Keepalived Puppet Module
 License:        Apache-2.0
 
@@ -49,4 +49,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keepalived/
 
 
 %changelog
+* Wed Sep 21 2016 Haikel Guemar <hguemar@fedoraproject.org> - -1.bbca37a.git
+- Newton update  (bbca37ade629a9178f09366fd0368187fb645f4e)
+
 
