@@ -1,3 +1,11 @@
+%{!?upstream_version: %global upstream_version %{commit}}
+%define upstream_name puppet-keepalived
+%global commit bbca37ade629a9178f09366fd0368187fb645f4e
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
+
 Name:           puppet-keepalived
 Version:        XXX
 Release:        XXX
@@ -6,7 +14,7 @@ License:        Apache-2.0
 
 URL:            https://github.com/Unyonsys/puppet-module-keepalived
 
-Source0:        http://github.com/Unyonsys/puppet-module-keepalived/archive/%{version}.tar.gz
+Source0:        http://github.com/Unyonsys/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
@@ -17,7 +25,7 @@ Requires:       puppet >= 2.7.0
 This Puppet Module manages keepalived instances.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
