@@ -53,3 +53,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keepalived/
 - Newton update pre-0.0.1 (bbca37ade629a9178f09366fd0368187fb645f4e)
 
 
+# REMOVEME: error caused by commit https://github.com/Unyonsys/puppet-module-keepalived/commit/bbca37ade629a9178f09366fd0368187fb645f4e
