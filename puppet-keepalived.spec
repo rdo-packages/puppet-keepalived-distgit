@@ -10,7 +10,7 @@ Name:           puppet-keepalived
 Version:        0.0.1
 Release:        0.11%{?alphatag}%{?dist}
 Summary:        Keepalived Puppet Module
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/Unyonsys/puppet-module-keepalived
 
