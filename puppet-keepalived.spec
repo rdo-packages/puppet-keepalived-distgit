@@ -7,8 +7,8 @@
 
 
 Name:           puppet-keepalived
-Version:        XXX
-Release:        XXX
+Version:        0.0.1
+Release:        0.11%{?alphatag}%{?dist}
 Summary:        Keepalived Puppet Module
 License:        ASL 2.0
 
@@ -49,5 +49,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/keepalived/
 
 
 %changelog
+* Fri Apr 01 2022 RDO <dev@lists.rdoproject.org> 0.0.1-0.11.bbca37agit
+- Update to pre 0.0.1 (bbca37ade629a9178f09366fd0368187fb645f4e)
+
 
 
